@@ -1,5 +1,5 @@
 {
-  "name": "aali",
+  "name": "projeto",
   "private": true,
   "scripts": {
     "dev": "next dev",
