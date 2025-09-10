@@ -77,36 +77,148 @@ const Portfolio = () => {
               <li>
                 <a onClick={handleFilterKeyChange("Midway")}>Midway</a>
               </li>
-              {/* <li>
-                <a onClick={handleFilterKeyChange("image")}>Image</a>
-              </li>
               <li>
+                <a onClick={handleFilterKeyChange("aquablast")}>aquablast</a>
+              </li>
+              {/* <li>
                 <a onClick={handleFilterKeyChange("detail")}>Detalhes</a>
               </li> */}
             </ul>
           </div>
           <div className="portfolio_list">
             <ul className="gallery_zoom">
-              {/* <li className="filter-item vimeo">
+              <li className="filter-item vimeo">
                 <div className="list_inner">
                   <div className="image">
                     <img src="img/thumbs/1-1.jpg" alt="aali image" />
-                    <div className="main" data-img-url="img/portfolio/1.jpg" />
+                    <div className="main" data-img-url="img/portfolio/aqua.png" />
                   </div>
                   <div className="overlay" />
-                  {vimeo}
+                  {text}
                   <div className="details">
-                    <span>Vimeo</span>
-                    <h3>New Laptop</h3>
+                    <span>Aquablast</span>
+                    <h3>Website</h3>
                   </div>
                   <a
                     className="aali_tm_full_link popup-vimeo"
                     href="#"
-                    onClick={() => showPopup("vimeo", "337293658")}
+                    onClick={() => setModal(4)}
                   />
                 </div>
+                <div className={modal === 4 ? "" : "hidden_content"}>
+                  <ModalBox close={setModal}>
+                    <div className="popup_details">
+                      <div className="top_image">
+                        <img src="img/thumbs/4-2.jpg" alt="" />
+                        <div
+                          className="main"
+                          data-img-url="img/portfolio/aqua1.png"
+                        ></div>
+                      </div>
+                      <div className="portfolio_main_title">
+                        <span>Detalhes</span>
+                        <h3>Aquablast</h3>
+                        <div></div>
+                      </div>
+                      <div className="main_details">
+                        <div className="textbox">
+                          {/* <p>
+                              Vivemos em um mundo onde precisamos agir rapidamente
+                              e repetir nossas ideias da maneira mais flexível possível.
+                              Construir maquetes atinge o equilíbrio ideal, facilidade de
+                              modificação.
+                            </p> */}
+                          <p>
+                            Participei desde o início do desenvolvimento deste projeto, que teve como objetivo criar a presença digital de uma empresa especializada em serviços de hidrojateamento. O trabalho envolveu a construção de uma landing page moderna, responsiva e otimizada para conversão.
+
+                            A página foi desenvolvida utilizando React com Vite para garantir performance e agilidade no processo de build, além de JavaScript e TypeScript para organização, tipagem e escalabilidade do código. Também foram aplicadas boas práticas de UX/UI para oferecer uma navegação simples e intuitiva, destacando os principais serviços da empresa e facilitando o contato de clientes potenciais.
+                            LINK: https://aquablast.com.br/
+                          </p>
+                        </div>
+                        <div className="detailbox">
+                          <ul>
+                            <li>
+                              <span className="first">Cliente</span>
+                              <span>Aquablast</span>
+                            </li>
+                            <li>
+                              <span className="first">Categoria</span>
+                              <span>
+                                <a href="#">Web-site</a>
+                              </span>
+                            </li>
+                            <li>
+                              <span className="first">Data</span>
+                              <span>06 de agosto 2025</span>
+                            </li>
+                            <li>
+                              <span className="first">Compartilhe</span>
+                              <ul className="share">
+                                <li>
+                                  <a href="https://www.facebook.com/sharer/sharer.php?u=https://localhost:3000/#home">{fb}</a>
+                                </li>
+                                <li>
+                                  <a href="https://twitter.com/intent/tweet?url=https://localhost:3000/#home">{twitter}</a>
+                                </li>
+                                <li>
+                                  <a href="https://www.instagram.com/direct/inbox/">{insta}</a>
+                                </li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="additional_images">
+                        <ul>
+                          <li>
+                            <div className="list_inner">
+                              <div className="my_image">
+                                <img
+                                  src="img/thumbs/4-2.jpg"
+                                  alt="aali image"
+                                />
+                                <div
+                                  className="main"
+                                  data-img-url="img/portfolio/aqua2.png"
+                                />
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div className="list_inner">
+                              <div className="my_image">
+                                <img
+                                  src="img/thumbs/4-2.jpg"
+                                  alt="aali image"
+                                />
+                                <div
+                                  className="main"
+                                  data-img-url="img/portfolio/aqua3.png"
+                                />
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div className="list_inner">
+                              <div className="my_image">
+                                <img
+                                  src="img/thumbs/4-2.jpg"
+                                  alt="aali image"
+                                />
+                                <div
+                                  className="main"
+                                  data-img-url="img/portfolio/aqua4.png"
+                                />
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </ModalBox>
+                </div>
               </li>
-              <li className="filter-item youtube">
+              {/* <li className="filter-item youtube">
                 <div className="list_inner">
                   <div className="image">
                     <img src="img/thumbs/1-1.jpg" alt="aali image" />
@@ -438,6 +550,7 @@ const Portfolio = () => {
                             <p>
                               Desenvolvido com a poderosa plataforma WordPress e o tema Elementor Pro, oferece uma navegação moderna, responsiva e intuitiva.
                               Recursos de Destaque:Navbar com Orçamento Rápido: Encontre facilmente a opção "Solicitar Orçamento" no menu superior para agilizar seu pedido. Ideal para quem quer saber mais detalhes e valores sem complicações.
+                              LINK: https://adturbos.com.br/
                             </p>
                             <p>
                               Blog Atualizado: Descubra dicas, novidades e conteúdos exclusivos sobre o mundo dos turbos automotivos. Nossa página de blog foi especialmente projetada para manter você sempre atualizado e engajado.
