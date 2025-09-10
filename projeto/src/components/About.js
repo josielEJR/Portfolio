@@ -40,7 +40,7 @@ const About = () => {
               data-wow-delay="0.2s"
             >
               <p>
-                Olá! Meu nome é Josiel Evangelista Junior. Eu Sou UI/UX designer, Eu sou muito apaixonado e dedicado ao meu trabalho.
+                Olá! Meu nome é Josiel Evangelista Junior. Eu Sou web developer, Eu sou muito apaixonado e dedicado ao meu trabalho.
               </p>
               <p>
                 Como Progamador, adquiri as habilidades e conhecimentos
