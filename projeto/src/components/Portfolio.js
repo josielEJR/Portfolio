@@ -128,12 +128,21 @@ const Portfolio = () => {
                               Construir maquetes atinge o equilíbrio ideal, facilidade de
                               modificação.
                             </p> */}
-                          <p>
-                            Participei desde o início do desenvolvimento deste projeto, que teve como objetivo criar a presença digital de uma empresa especializada em serviços de hidrojateamento. O trabalho envolveu a construção de uma landing page moderna, responsiva e otimizada para conversão.
+                            <p>
+                              Participei desde o início do desenvolvimento deste projeto, que teve como objetivo criar a presença digital de uma empresa especializada em serviços de hidrojateamento. O trabalho envolveu a construção de uma landing page moderna, responsiva e otimizada para conversão.
 
-                            A página foi desenvolvida utilizando React com Vite para garantir performance e agilidade no processo de build, além de JavaScript e TypeScript para organização, tipagem e escalabilidade do código. Também foram aplicadas boas práticas de UX/UI para oferecer uma navegação simples e intuitiva, destacando os principais serviços da empresa e facilitando o contato de clientes potenciais.
-                            LINK: https://aquablast.com.br/
-                          </p>
+                              A página foi desenvolvida utilizando React com Vite para garantir performance e agilidade no processo de build, além de JavaScript e TypeScript para organização, tipagem e escalabilidade do código. Também foram aplicadas boas práticas de UX/UI para oferecer uma navegação simples e intuitiva, destacando os principais serviços da empresa e facilitando o contato de clientes potenciais.
+                              <br />
+                              <strong>LINK: </strong>
+                              <a 
+                                href="https://aquablast.com.br/" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                style={{ color: '#ff6b6b', textDecoration: 'underline' }}
+                              >
+                                https://aquablast.com.br/
+                              </a>
+                            </p>
                         </div>
                         <div className="detailbox">
                           <ul>
@@ -302,13 +311,13 @@ const Portfolio = () => {
                                 <span className="first">Compartilhe</span>
                                 <ul className="share">
                                   <li>
-                                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://localhost:3000/#home">{fb}</a>
+                                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://localhost:3000/#home" target="_blank" rel="noopener noreferrer">{fb}</a>
                                   </li>
                                   <li>
-                                    <a href="https://twitter.com/intent/tweet?url=https://localhost:3000/#home">{twitter}</a>
+                                    <a href="https://twitter.com/intent/tweet?url=https://localhost:3000/#home" target="_blank" rel="noopener noreferrer">{twitter}</a>
                                   </li>
                                   <li>
-                                    <a href="https://www.instagram.com/direct/inbox/">{insta}</a>
+                                    <a href="https://www.instagram.com/direct/inbox/" target="_blank" rel="noopener noreferrer">{insta}</a>
                                   </li>
                                 </ul>
                               </li>
@@ -430,13 +439,13 @@ const Portfolio = () => {
                                 <span className="first">Compartilhe</span>
                                 <ul className="share">
                                   <li>
-                                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://localhost:3000/#home">{fb}</a>
+                                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://localhost:3000/#home" target="_blank" rel="noopener noreferrer">{fb}</a>
                                   </li>
                                   <li>
-                                    <a href="https://twitter.com/intent/tweet?url=https://localhost:3000/#home">{twitter}</a>
+                                    <a href="https://twitter.com/intent/tweet?url=https://localhost:3000/#home" target="_blank" rel="noopener noreferrer">{twitter}</a>
                                   </li>
                                   <li>
-                                    <a href="https://www.instagram.com/direct/inbox/">{insta}</a>
+                                    <a href="https://www.instagram.com/direct/inbox/" target="_blank" rel="noopener noreferrer">{insta}</a>
                                   </li>
                                 </ul>
                               </li>
@@ -550,7 +559,16 @@ const Portfolio = () => {
                             <p>
                               Desenvolvido com a poderosa plataforma WordPress e o tema Elementor Pro, oferece uma navegação moderna, responsiva e intuitiva.
                               Recursos de Destaque:Navbar com Orçamento Rápido: Encontre facilmente a opção "Solicitar Orçamento" no menu superior para agilizar seu pedido. Ideal para quem quer saber mais detalhes e valores sem complicações.
-                              LINK: https://adturbos.com.br/
+                              <br />
+                              <strong>LINK: </strong>
+                              <a 
+                                href="https://adturbos.com.br/" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                style={{ color: '#ff6b6b', textDecoration: 'underline' }}
+                              >
+                                https://adturbos.com.br/
+                              </a>
                             </p>
                             <p>
                               Blog Atualizado: Descubra dicas, novidades e conteúdos exclusivos sobre o mundo dos turbos automotivos. Nossa página de blog foi especialmente projetada para manter você sempre atualizado e engajado.
@@ -577,13 +595,13 @@ const Portfolio = () => {
                                 <span className="first">Compartilhe</span>
                                 <ul className="share">
                                   <li>
-                                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://localhost:3000/#home">{fb}</a>
+                                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://localhost:3000/#home" target="_blank" rel="noopener noreferrer">{fb}</a>
                                   </li>
                                   <li>
-                                    <a href="https://twitter.com/intent/tweet?url=https://localhost:3000/#home">{twitter}</a>
+                                    <a href="https://twitter.com/intent/tweet?url=https://localhost:3000/#home" target="_blank" rel="noopener noreferrer">{twitter}</a>
                                   </li>
                                   <li>
-                                    <a href="https://www.instagram.com/direct/inbox/">{insta}</a>
+                                    <a href="https://www.instagram.com/direct/inbox/" target="_blank" rel="noopener noreferrer">{insta}</a>
                                   </li>
                                 </ul>
                               </li>
