@@ -20,8 +20,8 @@ const Resume = () => {
                 <span>Saiba mais</span>
                 <h3>Meu Resumo</h3>
                 <p>
-                  Gosto de cada etapa do processo de construção do app, desde a discussão e
-                  colaboração para conceito e execução
+                  Sou programador Full Stack com mais de dois anos de experiência em desenvolvimento de aplicações web. Possuo conhecimento sólido em React e JavaScript, além de domínio em tecnologias como TypeScript, Node.js, MySQL, CSS, Tailwind, Styled Components, HTML e WordPress (Elementor Pro).
+                  Iniciei minha trajetória como estagiário em 2024 e, devido ao desempenho e dedicação, fui efetivado em outubro como Desenvolvedor Júnior na empresa onde atuo atualmente. Busco constantemente aprimorar minhas habilidades técnicas e contribuir para o desenvolvimento de soluções modernas, eficientes e escaláveis.
                 </p>
               </div>
               <div className="content_inner">
@@ -111,8 +111,7 @@ const Resume = () => {
                           </div>
                           <div className="text">
                             <p>
-                              Aali is a leading web design agency with an
-                              award-winning design
+                              Atuo como Desenvolvedor Júnior desde 2024, contribuindo no desenvolvimento de aplicações web.
                             </p>
                           </div>
                         </div>

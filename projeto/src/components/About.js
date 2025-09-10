@@ -30,7 +30,7 @@ const About = () => {
                 Eu sou <span>Josiel</span>
               </h3>
               <h3>
-                Dev <span>Junior</span>
+                Dev full stack <span>JR</span>
               </h3>
               <span className="subtitle">Suzano, SP-Brasil</span>
             </div>
