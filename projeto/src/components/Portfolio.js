@@ -78,7 +78,7 @@ const Portfolio = () => {
                 <a onClick={handleFilterKeyChange("Midway")}>Midway</a>
               </li>
               <li>
-                <a onClick={handleFilterKeyChange("aquablast")}>aquablast</a>
+                <a onClick={handleFilterKeyChange("aquablast")}>Aquablast</a>
               </li>
               {/* <li>
                 <a onClick={handleFilterKeyChange("detail")}>Detalhes</a>
@@ -87,7 +87,7 @@ const Portfolio = () => {
           </div>
           <div className="portfolio_list">
             <ul className="gallery_zoom">
-              <li className="filter-item vimeo">
+              <li className="filter-item aquablast">
                 <div className="list_inner">
                   <div className="image">
                     <img src="img/thumbs/1-1.jpg" alt="aali image" />
@@ -100,7 +100,7 @@ const Portfolio = () => {
                     <h3>Website</h3>
                   </div>
                   <a
-                    className="aali_tm_full_link popup-vimeo"
+                    className="aali_tm_full_link portfolio_popup"
                     href="#"
                     onClick={() => setModal(4)}
                   />
